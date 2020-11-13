@@ -11,6 +11,5 @@ public class HelloWordController {
     @GetMapping("/api/manager/hello")
     public String hello() {
         return "hello world";
-
     }
 }
